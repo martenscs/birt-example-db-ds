@@ -1,0 +1,6 @@
+sampledb.jar
+bin
+plugin_*.properties
+/target
+/.settings
+/.classpath

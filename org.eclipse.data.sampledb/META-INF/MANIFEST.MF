@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BIRT Sample Database
+Bundle-SymbolicName: org.eclipse.data.sampledb
+Bundle-Version: 4.4.1.qualifier
+Bundle-Vendor: Eclipse BIRT Project
+Import-Package: org.apache.commons.dbcp;version="[1.4.0,2.0.0)",
+ org.osgi.framework,
+ org.slf4j;version="1.7.2"
+Bundle-Activator: org.eclipse.data.sampledb.SampledbActivator
+Require-Bundle: org.apache.derby;bundle-version="10.5.1"
+
+
